@@ -1,0 +1,29 @@
+[gd_scene load_steps=5 format=3 uid="uid://d4hos05mnit6d"]
+
+[ext_resource type="Script" uid="uid://du4h6megyiwwx" path="res://Character Controller/player.gd" id="1_khoeo"]
+[ext_resource type="PackedScene" uid="uid://bj0gi503o7n5p" path="res://Models/Hats/Baseball Cap/Baseball cap.glb" id="2_mq3od"]
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_dilxs"]
+
+[sub_resource type="CapsuleMesh" id="CapsuleMesh_dilxs"]
+
+[node name="CharacterBody3D" type="CharacterBody3D"]
+script = ExtResource("1_khoeo")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0)
+shape = SubResource("CapsuleShape3D_dilxs")
+
+[node name="WorldModel" type="Node3D" parent="."]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="WorldModel"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0)
+mesh = SubResource("CapsuleMesh_dilxs")
+
+[node name="Baseball cap" parent="WorldModel" instance=ExtResource("2_mq3od")]
+transform = Transform3D(-0.487465, 0, -0.0171675, 0, 0.4, 0, 0.0207462, 0, -0.403376, -0.206679, 1.78617, -0.118021)
+
+[node name="Head" type="Node3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.79, 0)
+
+[node name="Camera3D" type="Camera3D" parent="Head"]
