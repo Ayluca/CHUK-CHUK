@@ -1,0 +1,17 @@
+[gd_scene load_steps=3 format=3 uid="uid://bosdpa60avajc"]
+
+[ext_resource type="PackedScene" uid="uid://d4hos05mnit6d" path="res://Character Controller/Player.tscn" id="1_uib4f"]
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_iqcmb"]
+
+[node name="TestMap" type="Node3D"]
+
+[node name="WorldModel" type="Node3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.90698, -0.231201, -2.47667)
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="WorldModel"]
+transform = Transform3D(10, 0, 0, 0, 10, 0, 0, 0, 10, 0, 0, 0)
+mesh = SubResource("PlaneMesh_iqcmb")
+
+[node name="CharacterBody3D" parent="WorldModel" instance=ExtResource("1_uib4f")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.179915, 0.231201, 0.800251)

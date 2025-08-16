@@ -11,5 +11,6 @@ config_version=5
 [application]
 
 config/name="CHUK"
+run/main_scene="uid://bosdpa60avajc"
 config/features=PackedStringArray("4.4", "Forward Plus")
 config/icon="res://icon.svg"
