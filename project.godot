@@ -23,6 +23,11 @@ config/icon="uid://b0p4swwke744k"
 DamageNumberScript="*res://Targets/Scripts/DamageNumberScript.gd"
 ShootingRangeTargetManagerScript="*res://Targets/Scripts/ShootingRangeTargetManagerScript.gd"
 HitableBoxScript="*res://Targets/Scripts/HitableBoxScript.gd"
+DebugMenu="*res://addons/debug_menu/debug_menu.tscn"
+
+[editor_plugins]
+
+enabled=PackedStringArray("res://addons/debug_menu/plugin.cfg")
 
 [input]
 

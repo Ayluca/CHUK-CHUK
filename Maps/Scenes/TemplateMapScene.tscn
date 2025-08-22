@@ -97,11 +97,18 @@ collision_mask = 10
 size = Vector3(4, 2, 4)
 
 [node name="CSGBox3D16" type="CSGBox3D" parent="Structures"]
-transform = Transform3D(0.965926, 0, -0.258819, 0, 1, 0, 0.258819, 0, 0.965926, 7.31153, 5.5, -1.33842)
+transform = Transform3D(0.965926, 0, -0.258819, 0, 1, 0, 0.258819, 0, 0.965926, 7.78388, 6.08783, -1.21185)
 material_override = ExtResource("3_3spjh")
 use_collision = true
 collision_mask = 10
-size = Vector3(3.87305, 4, 6.46143)
+size = Vector3(4.85108, 5.17566, 6.46143)
+
+[node name="CSGBox3D26" type="CSGBox3D" parent="Structures"]
+transform = Transform3D(-0.937111, -0.34903, -8.19249e-08, -0.34903, 0.937111, -3.05132e-08, 8.74228e-08, 3.04717e-15, -1, -2.86171, 3.98985, -0.00944132)
+material_override = ExtResource("3_3spjh")
+use_collision = true
+collision_mask = 10
+size = Vector3(7.86063, 0.2, 3.34326)
 
 [node name="CSGBox3D7" type="CSGBox3D" parent="Structures"]
 transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 5, 3.60488, -6.99953)
@@ -109,6 +116,13 @@ material_override = ExtResource("3_3spjh")
 use_collision = true
 collision_mask = 10
 size = Vector3(4.83682, 0.2, 4)
+
+[node name="CSGBox3D7" type="CSGBox3D" parent="Structures/CSGBox3D7"]
+transform = Transform3D(0.527365, 0.0173812, 0.849461, -0.177085, 0.980083, 0.0898844, -0.83098, -0.197828, 0.51994, -0.0968995, 4.09356, -4.29779)
+material_override = ExtResource("3_3spjh")
+use_collision = true
+collision_mask = 10
+size = Vector3(12.9229, 0.2, 0.249176)
 
 [node name="CSGBox3D17" type="CSGBox3D" parent="Structures"]
 transform = Transform3D(0.107757, -0.067334, 0.991894, 0.529919, 0.848048, 0, -0.841174, 0.525624, 0.127065, -10.0438, 4.93685, -6.79644)
@@ -167,12 +181,36 @@ collision_mask = 10
 size = Vector3(10, 3, 7)
 
 [node name="CSGBox3D20" type="CSGCylinder3D" parent="Structures"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 1.1842, -17.0659)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8.80757, 1.1842, -17.0659)
 material_override = ExtResource("3_3spjh")
 use_collision = true
 collision_mask = 10
 radius = 1.0
 height = 1.35693
+
+[node name="CSGBox3D20" type="CSGCylinder3D" parent="Structures/CSGBox3D20"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.05082, -0.0310763, 0.0445175)
+material_override = ExtResource("3_3spjh")
+use_collision = true
+collision_mask = 10
+radius = 1.0
+height = 1.36682
+
+[node name="CSGBox3D21" type="CSGCylinder3D" parent="Structures/CSGBox3D20"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -18.4154, 0.07613, -10.9765)
+material_override = ExtResource("3_3spjh")
+use_collision = true
+collision_mask = 10
+radius = 1.0
+height = 1.35693
+
+[node name="CSGBox3D20" type="CSGCylinder3D" parent="Structures/CSGBox3D20/CSGBox3D21"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.05082, -0.0310763, 0.0445175)
+material_override = ExtResource("3_3spjh")
+use_collision = true
+collision_mask = 10
+radius = 1.0
+height = 1.36682
 
 [node name="CSGBox3D21" type="CSGCylinder3D" parent="Structures"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.88225, 1.1842, 3.07732)
