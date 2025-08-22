@@ -2,7 +2,7 @@ extends CharacterBody3D
 
 class_name ShootingRangeTarget
 
-var canDisplayDamageNumber : bool = false
+var canDisplayDamageNumber : bool = true
 var health : float = 100.0
 var healthRef : float
 var isDisabled : bool = false
