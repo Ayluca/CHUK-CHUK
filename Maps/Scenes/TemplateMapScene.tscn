@@ -27,11 +27,11 @@ glow_enabled = true
 [node name="Structures" type="Node3D" parent="."]
 
 [node name="CSGBox3D" type="CSGBox3D" parent="Structures"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, -64.3862)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, -46.4064)
 material_override = ExtResource("2_bi2w1")
 use_collision = true
 collision_mask = 10
-size = Vector3(45, 1, 154.772)
+size = Vector3(45, 1, 118.812)
 
 [node name="CSGBox3D25" type="CSGBox3D" parent="Structures"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0.987299, -43.7725)
@@ -48,18 +48,18 @@ collision_mask = 10
 size = Vector3(1, 10, 43)
 
 [node name="CSGBox3D23" type="CSGBox3D" parent="Structures"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 21.5, 2, -86.3702)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 21.5, 2, -68.0138)
 material_override = ExtResource("2_bi2w1")
 use_collision = true
 collision_mask = 10
-size = Vector3(1, 5, 112.74)
+size = Vector3(1, 5, 76.0273)
 
 [node name="CSGBox3D24" type="CSGBox3D" parent="Structures"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -24.5326, 2, -86.3702)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -24.5326, 2, -67.9952)
 material_override = ExtResource("2_bi2w1")
 use_collision = true
 collision_mask = 10
-size = Vector3(1, 5, 112.74)
+size = Vector3(1, 5, 75.99)
 
 [node name="CSGBox3D12" type="CSGBox3D" parent="Structures"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1, 4.5, 13.5)
@@ -69,7 +69,7 @@ collision_mask = 10
 size = Vector3(46, 10, 1)
 
 [node name="CSGBox3D13" type="CSGBox3D" parent="Structures"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.498, 4.5, -142.27)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.498, 4.5, -105.588)
 material_override = ExtResource("2_bi2w1")
 use_collision = true
 collision_mask = 10
@@ -310,23 +310,8 @@ transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -7, 0.385, -101)
 [node name="ShootingRangeTarget14" parent="ShootingRangeTargetManager" instance=ExtResource("7_wwbpl")]
 transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 7, 0.385, -101)
 
-[node name="ShootingRangeTarget15" parent="ShootingRangeTargetManager" instance=ExtResource("7_wwbpl")]
-transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -7, 0.385, -121)
-
-[node name="ShootingRangeTarget16" parent="ShootingRangeTargetManager" instance=ExtResource("7_wwbpl")]
-transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 7, 0.385, -121)
-
 [node name="ShootingRangeTarget17" parent="ShootingRangeTargetManager" instance=ExtResource("7_wwbpl")]
 transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 13, 0.385, -92)
-
-[node name="ShootingRangeTarget18" parent="ShootingRangeTargetManager" instance=ExtResource("7_wwbpl")]
-transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 0, 0.385, -111)
-
-[node name="ShootingRangeTarget19" parent="ShootingRangeTargetManager" instance=ExtResource("7_wwbpl")]
-transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -14, 0.385, -111)
-
-[node name="ShootingRangeTarget20" parent="ShootingRangeTargetManager" instance=ExtResource("7_wwbpl")]
-transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 13, 0.385, -111)
 
 [node name="HitableBox" parent="ShootingRangeTargetManager" instance=ExtResource("8_2mjpe")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -14.2564, 1.12582, 6.35022)
