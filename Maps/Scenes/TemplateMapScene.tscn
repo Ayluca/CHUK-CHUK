@@ -1,8 +1,8 @@
 [gd_scene load_steps=12 format=3 uid="uid://bwqrfifgj21e"]
 
 [ext_resource type="PackedScene" uid="uid://bwggrf7sbmkcv" path="res://PlayerCharacter/Scenes/PlayerCharacterScene.tscn" id="1_07h0i"]
-[ext_resource type="Material" uid="uid://bu7tj6ka05jwg" path="res://Arts/Materials/StructureMaterial1.tres" id="2_bi2w1"]
-[ext_resource type="Material" uid="uid://cgn7do4y8jc0o" path="res://Arts/Materials/StructureMaterial2.tres" id="3_3spjh"]
+[ext_resource type="Material" uid="uid://bu7tj6ka05jwg" path="res://Materials/StructureMaterial1.tres" id="2_bi2w1"]
+[ext_resource type="Material" uid="uid://cgn7do4y8jc0o" path="res://Materials/StructureMaterial2.tres" id="3_3spjh"]
 [ext_resource type="PackedScene" uid="uid://pjv5ptit5tvg" path="res://Weapons/Scenes/AmmoRefillerScene.tscn" id="4_qmrtm"]
 [ext_resource type="Script" uid="uid://bnwoh7ph255km" path="res://Maps/Scripts/SpawnerManagerScript.gd" id="5_r8qas"]
 [ext_resource type="Script" uid="uid://c8a2kystypxdm" path="res://Targets/Scripts/ShootingRangeTargetManagerScript.gd" id="6_nmj7y"]

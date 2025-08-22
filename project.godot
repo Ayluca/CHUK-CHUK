@@ -11,13 +11,22 @@ config_version=5
 [application]
 
 config/name="CHUK"
+config/description="FPS Game."
+config/version="0.0.001"
+run/main_scene="uid://bwqrfifgj21e"
 config/features=PackedStringArray("4.4", "Forward Plus")
-config/icon="res://icon.svg"
+boot_splash/image="uid://b0p4swwke744k"
+config/icon="uid://b0p4swwke744k"
 
 [autoload]
 
 DamageNumberScript="*res://Targets/Scripts/DamageNumberScript.gd"
 ShootingRangeTargetManagerScript="*res://Targets/Scripts/ShootingRangeTargetManagerScript.gd"
+
+[display]
+
+window/size/viewport_width=1280
+window/size/viewport_height=720
 
 [input]
 

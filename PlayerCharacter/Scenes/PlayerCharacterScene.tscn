@@ -21,7 +21,7 @@
 [ext_resource type="Script" uid="uid://bcka80usfl4am" path="res://Weapons/Scripts/WeaponSlotScript.gd" id="24_tyw5b"]
 [ext_resource type="Material" uid="uid://f3f1s20quvcb" path="res://PlayerCharacter/Materials/PlayerCharacterMaterial.tres" id="25_8ryj3"]
 [ext_resource type="Texture2D" uid="uid://jwucel52ti1u" path="res://Weapons/Images/Crosshair.png" id="28_msp70"]
-[ext_resource type="Texture2D" uid="uid://dq6lmmv7chko6" path="res://Weapon Textures/atlass_1_diffuse.png" id="32_1lhsp"]
+[ext_resource type="Texture2D" uid="uid://dq6lmmv7chko6" path="res://Textures/Weapon Textures/atlass_1_diffuse.png" id="32_1lhsp"]
 [ext_resource type="Script" uid="uid://pufyqjrkl22t" path="res://Weapons/Scripts/ShootManagerScript.gd" id="96_j45p8"]
 [ext_resource type="Script" uid="uid://cfbsp443am2jd" path="res://Weapons/Scripts/ReloadManagerScript.gd" id="97_et5xr"]
 [ext_resource type="Script" uid="uid://b45mr122adhlv" path="res://Weapons/Scripts/Ammunition/AmmunitionManagerScript.gd" id="99_ihy62"]

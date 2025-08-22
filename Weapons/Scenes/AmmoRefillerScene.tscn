@@ -1,7 +1,7 @@
 [gd_scene load_steps=5 format=3 uid="uid://pjv5ptit5tvg"]
 
 [ext_resource type="Script" uid="uid://bp4miwy6defwl" path="res://Weapons/Scripts/Ammunition/AmmoRefillerScript.gd" id="1_bsrep"]
-[ext_resource type="PackedScene" uid="uid://cyxdexqmowyvh" path="res://Weapon Models/AmmunitionBox/ammobox_low.glb" id="2_8nqyo"]
+[ext_resource type="PackedScene" uid="uid://cyxdexqmowyvh" path="res://Models/Weapon Models/AmmunitionBox/ammobox_low.glb" id="2_8nqyo"]
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_vfsrg"]
 size = Vector3(0.974533, 0.752262, 1.42589)

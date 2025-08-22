@@ -8,7 +8,7 @@
 [ext_resource type="Resource" uid="uid://b63lj0c7tash0" path="res://Weapons/Resources/SniperRifleWeaponResources.tres" id="6_q4c00"]
 [ext_resource type="Resource" uid="uid://dn71dyben68oe" path="res://Weapons/Resources/RocketLauncherWeaponResources.tres" id="7_qn0py"]
 [ext_resource type="Script" uid="uid://bcka80usfl4am" path="res://Weapons/Scripts/WeaponSlotScript.gd" id="8_076ap"]
-[ext_resource type="Texture2D" uid="uid://dq6lmmv7chko6" path="res://Weapon Textures/atlass_1_diffuse.png" id="9_tmxqh"]
+[ext_resource type="Texture2D" uid="uid://dq6lmmv7chko6" path="res://Textures/Weapon Textures/atlass_1_diffuse.png" id="9_tmxqh"]
 [ext_resource type="Script" uid="uid://pufyqjrkl22t" path="res://Weapons/Scripts/ShootManagerScript.gd" id="10_wdisg"]
 [ext_resource type="Script" uid="uid://cfbsp443am2jd" path="res://Weapons/Scripts/ReloadManagerScript.gd" id="11_cj4v7"]
 [ext_resource type="Script" uid="uid://b45mr122adhlv" path="res://Weapons/Scripts/Ammunition/AmmunitionManagerScript.gd" id="12_14msg"]
