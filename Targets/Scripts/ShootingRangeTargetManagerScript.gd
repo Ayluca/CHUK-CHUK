@@ -17,7 +17,7 @@ func _process(_delta : float):
 	inputManagement()
 	
 func inputManagement():
-	if Input.is_action_just_pressed(restartShootingRangeAction):
+	if Input.is_action_just_pressed("restartShootingRangeAction"):
 		restartShootRange()
 		
 func restartShootRange():
